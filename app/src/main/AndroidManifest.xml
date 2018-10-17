@@ -19,7 +19,8 @@
         <activity android:name=".barchart" />
         <activity android:name=".linechart" />
         <activity android:name=".piechart" />
-        <activity android:name=".ScatterChart"></activity>
+        <activity android:name=".ScatterChart" />
+        <activity android:name=".RadarChart"></activity>
     </application>
 
 </manifest>

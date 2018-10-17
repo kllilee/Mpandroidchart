@@ -32,6 +32,11 @@ class MainActivity : AppCompatActivity() {
         startActivity(intent)
     }
 
+    private val btn_radarchart_click = View.OnClickListener{
+        val intent = Intent(this,RadarChart::class.java)
+        startActivity(intent)
+    }
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
@@ -39,6 +44,7 @@ class MainActivity : AppCompatActivity() {
         btn_linechart.setOnClickListener(btn_linechart_click)
         btn_pie.setOnClickListener(btn_pie_click)
         btn_ScatterChart.setOnClickListener(btn_ScatterChart_click)
+        btn_radarchart.setOnClickListener(btn_radarchart_click)
 
     }
 
